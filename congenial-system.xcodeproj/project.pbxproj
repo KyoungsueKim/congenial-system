@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D15AD8332BE458B900FFF0C2 /* congenial_system_appclipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AD8322BE458B900FFF0C2 /* congenial_system_appclipApp.swift */; };
+		D15AD8352BE458B900FFF0C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AD8342BE458B900FFF0C2 /* ContentView.swift */; };
+		D15AD8372BE458B900FFF0C2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AD8362BE458B900FFF0C2 /* Item.swift */; };
+		D15AD8392BE458BA00FFF0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15AD8382BE458BA00FFF0C2 /* Assets.xcassets */; };
+		D15AD83C2BE458BA00FFF0C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15AD83B2BE458BA00FFF0C2 /* Preview Assets.xcassets */; };
+		D15AD8412BE458BA00FFF0C2 /* congenial-system-appclip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = D15AD8302BE458B900FFF0C2 /* congenial-system-appclip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D1A3D3B62BE1D63D003F3457 /* congenial_systemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D3B52BE1D63D003F3457 /* congenial_systemApp.swift */; };
 		D1A3D3B82BE1D63D003F3457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D3B72BE1D63D003F3457 /* ContentView.swift */; };
 		D1A3D3BA2BE1D63D003F3457 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D3B92BE1D63D003F3457 /* Item.swift */; };
@@ -14,7 +20,40 @@
 		D1A3D3BF2BE1D63F003F3457 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A3D3BE2BE1D63F003F3457 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D15AD83F2BE458BA00FFF0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1A3D3AA2BE1D63D003F3457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D15AD82F2BE458B900FFF0C2;
+			remoteInfo = "congenial-system-appclip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D15AD8422BE458BA00FFF0C2 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				D15AD8412BE458BA00FFF0C2 /* congenial-system-appclip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D15AD8302BE458B900FFF0C2 /* congenial-system-appclip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "congenial-system-appclip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15AD8322BE458B900FFF0C2 /* congenial_system_appclipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = congenial_system_appclipApp.swift; sourceTree = "<group>"; };
+		D15AD8342BE458B900FFF0C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D15AD8362BE458B900FFF0C2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D15AD8382BE458BA00FFF0C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D15AD83B2BE458BA00FFF0C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D15AD83D2BE458BA00FFF0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D15AD83E2BE458BA00FFF0C2 /* congenial_system_appclip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = congenial_system_appclip.entitlements; sourceTree = "<group>"; };
+		D15AD8472BE45EB100FFF0C2 /* AppClip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppClip.framework; path = System/Library/Frameworks/AppClip.framework; sourceTree = SDKROOT; };
 		D1A3D3B22BE1D63D003F3457 /* congenial-system.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "congenial-system.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A3D3B52BE1D63D003F3457 /* congenial_systemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = congenial_systemApp.swift; sourceTree = "<group>"; };
 		D1A3D3B72BE1D63D003F3457 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D15AD82D2BE458B900FFF0C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1A3D3AF2BE1D63D003F3457 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,11 +80,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D15AD8312BE458B900FFF0C2 /* congenial-system-appclip */ = {
+			isa = PBXGroup;
+			children = (
+				D15AD8322BE458B900FFF0C2 /* congenial_system_appclipApp.swift */,
+				D15AD8342BE458B900FFF0C2 /* ContentView.swift */,
+				D15AD8362BE458B900FFF0C2 /* Item.swift */,
+				D15AD8382BE458BA00FFF0C2 /* Assets.xcassets */,
+				D15AD83D2BE458BA00FFF0C2 /* Info.plist */,
+				D15AD83E2BE458BA00FFF0C2 /* congenial_system_appclip.entitlements */,
+				D15AD83A2BE458BA00FFF0C2 /* Preview Content */,
+			);
+			path = "congenial-system-appclip";
+			sourceTree = "<group>";
+		};
+		D15AD83A2BE458BA00FFF0C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D15AD83B2BE458BA00FFF0C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D15AD8462BE45EB100FFF0C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D15AD8472BE45EB100FFF0C2 /* AppClip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1A3D3A92BE1D63D003F3457 = {
 			isa = PBXGroup;
 			children = (
 				D1A3D3B42BE1D63D003F3457 /* congenial-system */,
+				D15AD8312BE458B900FFF0C2 /* congenial-system-appclip */,
 				D1A3D3B32BE1D63D003F3457 /* Products */,
+				D15AD8462BE45EB100FFF0C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				D1A3D3B22BE1D63D003F3457 /* congenial-system.app */,
+				D15AD8302BE458B900FFF0C2 /* congenial-system-appclip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +152,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D15AD82F2BE458B900FFF0C2 /* congenial-system-appclip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D15AD8452BE458BA00FFF0C2 /* Build configuration list for PBXNativeTarget "congenial-system-appclip" */;
+			buildPhases = (
+				D15AD82C2BE458B900FFF0C2 /* Sources */,
+				D15AD82D2BE458B900FFF0C2 /* Frameworks */,
+				D15AD82E2BE458B900FFF0C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "congenial-system-appclip";
+			productName = "congenial-system-appclip";
+			productReference = D15AD8302BE458B900FFF0C2 /* congenial-system-appclip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		D1A3D3B12BE1D63D003F3457 /* congenial-system */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1A3D3C22BE1D63F003F3457 /* Build configuration list for PBXNativeTarget "congenial-system" */;
@@ -80,10 +176,12 @@
 				D1A3D3AE2BE1D63D003F3457 /* Sources */,
 				D1A3D3AF2BE1D63D003F3457 /* Frameworks */,
 				D1A3D3B02BE1D63D003F3457 /* Resources */,
+				D15AD8422BE458BA00FFF0C2 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D15AD8402BE458BA00FFF0C2 /* PBXTargetDependency */,
 			);
 			name = "congenial-system";
 			productName = "congenial-system";
@@ -100,6 +198,9 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					D15AD82F2BE458B900FFF0C2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					D1A3D3B12BE1D63D003F3457 = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -119,11 +220,21 @@
 			projectRoot = "";
 			targets = (
 				D1A3D3B12BE1D63D003F3457 /* congenial-system */,
+				D15AD82F2BE458B900FFF0C2 /* congenial-system-appclip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D15AD82E2BE458B900FFF0C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15AD83C2BE458BA00FFF0C2 /* Preview Assets.xcassets in Resources */,
+				D15AD8392BE458BA00FFF0C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1A3D3B02BE1D63D003F3457 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,6 +247,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D15AD82C2BE458B900FFF0C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15AD8352BE458B900FFF0C2 /* ContentView.swift in Sources */,
+				D15AD8372BE458B900FFF0C2 /* Item.swift in Sources */,
+				D15AD8332BE458B900FFF0C2 /* congenial_system_appclipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D1A3D3AE2BE1D63D003F3457 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,7 +269,89 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D15AD8402BE458BA00FFF0C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D15AD82F2BE458B900FFF0C2 /* congenial-system-appclip */;
+			targetProxy = D15AD83F2BE458BA00FFF0C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D15AD8432BE458BA00FFF0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "congenial-system-appclip/congenial_system_appclip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"congenial-system-appclip/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BAL9BR86N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "congenial-system-appclip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "경기버스승차벨";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyoungsuekim.congenial-system.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D15AD8442BE458BA00FFF0C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "congenial-system-appclip/congenial_system_appclip.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"congenial-system-appclip/Preview Content\"";
+				DEVELOPMENT_TEAM = 3BAL9BR86N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "congenial-system-appclip/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "경기버스승차벨";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyoungsuekim.congenial-system.Clip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 		D1A3D3C02BE1D63F003F3457 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -271,6 +474,7 @@
 		D1A3D3C32BE1D63F003F3457 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -279,11 +483,12 @@
 				DEVELOPMENT_TEAM = 3BAL9BR86N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "경기버스승차벨";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,15 +496,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyoungsuekim.congenial-system";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D1A3D3C42BE1D63F003F3457 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,11 +518,12 @@
 				DEVELOPMENT_TEAM = 3BAL9BR86N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "경기버스승차벨";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,15 +531,28 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyoungsuekim.congenial-system";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D15AD8452BE458BA00FFF0C2 /* Build configuration list for PBXNativeTarget "congenial-system-appclip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D15AD8432BE458BA00FFF0C2 /* Debug */,
+				D15AD8442BE458BA00FFF0C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D1A3D3AD2BE1D63D003F3457 /* Build configuration list for PBXProject "congenial-system" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
