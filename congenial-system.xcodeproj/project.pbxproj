@@ -13,6 +13,8 @@
 		D15AD8392BE458BA00FFF0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15AD8382BE458BA00FFF0C2 /* Assets.xcassets */; };
 		D15AD83C2BE458BA00FFF0C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D15AD83B2BE458BA00FFF0C2 /* Preview Assets.xcassets */; };
 		D15AD8412BE458BA00FFF0C2 /* congenial-system-appclip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = D15AD8302BE458B900FFF0C2 /* congenial-system-appclip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D15AD84C2BE4641800FFF0C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15AD8342BE458B900FFF0C2 /* ContentView.swift */; };
+		D15AD84D2BE4641C00FFF0C2 /* congenial_systemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D3B52BE1D63D003F3457 /* congenial_systemApp.swift */; };
 		D1A3D3B62BE1D63D003F3457 /* congenial_systemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D3B52BE1D63D003F3457 /* congenial_systemApp.swift */; };
 		D1A3D3B82BE1D63D003F3457 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D3B72BE1D63D003F3457 /* ContentView.swift */; };
 		D1A3D3BA2BE1D63D003F3457 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A3D3B92BE1D63D003F3457 /* Item.swift */; };
@@ -252,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D15AD8352BE458B900FFF0C2 /* ContentView.swift in Sources */,
+				D15AD84D2BE4641C00FFF0C2 /* congenial_systemApp.swift in Sources */,
 				D15AD8372BE458B900FFF0C2 /* Item.swift in Sources */,
 				D15AD8332BE458B900FFF0C2 /* congenial_system_appclipApp.swift in Sources */,
 			);
@@ -263,6 +266,7 @@
 			files = (
 				D1A3D3B82BE1D63D003F3457 /* ContentView.swift in Sources */,
 				D1A3D3BA2BE1D63D003F3457 /* Item.swift in Sources */,
+				D15AD84C2BE4641800FFF0C2 /* ContentView.swift in Sources */,
 				D1A3D3B62BE1D63D003F3457 /* congenial_systemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
